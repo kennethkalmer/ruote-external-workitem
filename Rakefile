@@ -10,7 +10,9 @@ begin
     gem.homepage = "http://github.com/kennethkalmer/ruote-external-workitem"
     gem.authors = ["Kenneth Kalmer"]
 
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    # gem is a Gem::Specification... see
+    # http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.add_dependency 'json_pure', '>= 1.1.4'
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
