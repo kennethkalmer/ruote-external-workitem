@@ -1,0 +1,12 @@
+h1. Ruote External Workitem
+
+A thin wrapper class that facilitates the examination/altering of ruote workitem's outside of the running engine.
+
+Example uses:
+
+* route-rest clients
+* route-kit clients
+* XMPP bots (messaged through the JabberParticipant)
+* AMQP bots (messaged through the AMQPParticipant)
+* Nanite agents (messaged through the NaniteMasterParticipant)
+* Your own external consumers!
